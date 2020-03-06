@@ -1,0 +1,128 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px) {
+  	.dkt-only {
+    display: none;
+  	}
+ 	.mb-only {
+    display: block;
+  	}
+}
+
+
+.font-icon {
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .dkt-only {
+    display: block;
+  }
+  .mb-only {
+    display: none;
+  }
+}
+.fundo
+{
+	background-image: url('../img/bg1.png') !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	
+}
+.texto-fundo
+{
+	color: white;
+	text-align: center;
+}
+.texto-fundo h2, .texto-fundo h1, .texto-fundo h3
+{
+	font-weight: bold;
+}
+.jumbotron
+{
+	border-radius: 1.25rem!important;
+}
+
+.bg-color
+{
+	background-color: #18347b !important;
+}
+.box-img
+	{
+	display: inline-flex;
+	align-items: center;
+	margin: 10px;
+	}
+
+.box-img img
+{
+	margin-right: 10px;
+}
+.box-img h4
+{
+	margin-bottom: 0 !important ; 
+	font-weight: bold;
+}
+.card-header
+{
+	background-color: rgb(95, 95, 95) !important;
+	color: white;
+}
+.card-body{
+	background-color:rgb(219, 219, 219) ;
+}
+.azul {
+	color: #18347b;
+}
+.form {
+	border-radius: 10px;
+	background-color: #DCDCDC;
+}
+.img-carousel img
+{
+	height: 160px;
+    width: 290px;
+    object-fit: contain;
+    object-position: center;
+}
+.img-carousel-primeiro
+{
+	object-fit: cover !important;
+    object-position: -40% !important;
+}
+
+.img-desktop
+{
+	max-width: 80% !important;
+}
+.vermelho {
+	color: #ea1f25;
+}
+.btn-red {
+	background-color: #18347b;
+	color: white;
+	border-radius: 10px;
+}
+.logo{
+	width: 120px;
+	padding: 10px 0px;
+}
+.form-info{
+	padding-bottom: 2em;
+}
+.bg{
+	background: url(../img/bg.png);
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+.carousel-caption
+{
+	bottom: -67px !important;
+}
+.carousel-inner
+{
+	height: 200px;
+}
